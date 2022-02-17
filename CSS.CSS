@@ -1,0 +1,54 @@
+body,html{
+    width:100%;
+     height :100%;
+    font-family: 'Times New Roman', Times, serif;
+     background: url(https://images.unsplash.com/photo-1470225620780-dba8ba36b745?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=60) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+h1{
+    font-size: 3rem;
+    font-style: italic;
+    font-style: bold;
+    color:#65d6b1;
+
+}
+hr{
+    border-color: #F05F44 ;
+    border-width: 3px;
+    max-width: 96px;
+   
+}
+.buffer{
+    height :5rem;
+}
+
+
+
+.btn{
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+
+.btn-primary{
+    background-color:#F05F44 ;
+    border-color:#F05F44 ;
+
+}
+.btn-primary:hover{
+    background-color: #ee4b08;
+    border-color: #ee4b08;
+    border-width: 7px;
+}
+.btn-xl{
+    padding:6px 10px;
+}
+
+.card{
+    background-color:rgb(255,255,255,0.4);
+}
